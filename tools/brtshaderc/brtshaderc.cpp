@@ -196,6 +196,7 @@ namespace shaderc
             case bgfx::RendererType::Gnm:          //!< GNM
                 break;
             case bgfx::RendererType::Metal:        //!< Metal
+                    options.profile = "metal";
                 break;
             case bgfx::RendererType::OpenGLES:     //!< OpenGL ES 2.0+
                 break;
