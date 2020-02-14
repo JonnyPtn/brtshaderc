@@ -52,6 +52,7 @@ void printError(FILE* file, const char* format, ...)
 //#define static_deallocate static_deallocate_shaderc
 //#include "../../bgfx/tools/shaderc/shaderc_spirv.cpp"
 //#include "../../bgfx/tools/shaderc/shaderc_pssl.cpp"
+#include "../../bgfx/tools/shaderc/shaderc_metal.cpp"
 
 namespace bgfx 
 {
